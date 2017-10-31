@@ -1,0 +1,2335 @@
+{
+  "override_enabled": true,
+  "preset": {
+    "description": ": ",
+    "value": "SURVIVAL_DEFAULT_PLUS",
+    "options": [
+      {
+        "value": "SURVIVAL_TOGETHER",
+        "description": "Survival Together"
+      },
+      {
+        "value": "MOD_MISSING",
+        "description": "Mod Missing"
+      },
+      {
+        "value": "SURVIVAL_TOGETHER_CLASSIC",
+        "description": "Survival Together Classic"
+      },
+      {
+        "value": "SURVIVAL_DEFAULT_PLUS",
+        "description": "Survival Default Plus"
+      },
+      {
+        "value": "COMPLETE_DARKNESS",
+        "description": "Complete Darkness"
+      },
+      {
+        "value": "DST_CAVE",
+        "description": "Dst Cave"
+      },
+      {
+        "value": "DST_CAVE_PLUS",
+        "description": "Dst Cave Plus"
+      }
+    ]
+  },
+  "overrides": {
+    "misc": {
+      "task_set": {
+        "description": "Task Set",
+        "value": "default",
+        "options": [
+          {
+            "value": "classic",
+            "description": "Classic"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "cave_default",
+            "description": "Cave Default"
+          }
+        ]
+      },
+      "start_location": {
+        "description": "Start Location",
+        "value": "default",
+        "options": [
+          {
+            "value": "caves",
+            "description": "Caves"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "plus",
+            "description": "Plus"
+          },
+          {
+            "value": "darkness",
+            "description": "Darkness"
+          }
+        ]
+      },
+      "world_size": {
+        "description": "World Size",
+        "value": "huge",
+        "options": [
+          {
+            "value": "small",
+            "description": "Small"
+          },
+          {
+            "value": "medium",
+            "description": "Medium"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "huge",
+            "description": "Huge"
+          }
+        ]
+      },
+      "branching": {
+        "description": "Branching",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "least",
+            "description": "Least"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "most",
+            "description": "Most"
+          }
+        ]
+      },
+      "loop": {
+        "description": "Loop",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "autumn": {
+        "description": "Autumn",
+        "value": "verylongseason",
+        "options": [
+          {
+            "value": "noseason",
+            "description": "Noseason"
+          },
+          {
+            "value": "veryshortseason",
+            "description": "Veryshortseason"
+          },
+          {
+            "value": "shortseason",
+            "description": "Shortseason"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "longseason",
+            "description": "Longseason"
+          },
+          {
+            "value": "verylongseason",
+            "description": "Verylongseason"
+          },
+          {
+            "value": "random",
+            "description": "Random"
+          }
+        ]
+      },
+      "winter": {
+        "description": "Winter",
+        "value": "longseason",
+        "options": [
+          {
+            "value": "noseason",
+            "description": "Noseason"
+          },
+          {
+            "value": "veryshortseason",
+            "description": "Veryshortseason"
+          },
+          {
+            "value": "shortseason",
+            "description": "Shortseason"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "longseason",
+            "description": "Longseason"
+          },
+          {
+            "value": "verylongseason",
+            "description": "Verylongseason"
+          },
+          {
+            "value": "random",
+            "description": "Random"
+          }
+        ]
+      },
+      "spring": {
+        "description": "Spring",
+        "value": "longseason",
+        "options": [
+          {
+            "value": "noseason",
+            "description": "Noseason"
+          },
+          {
+            "value": "veryshortseason",
+            "description": "Veryshortseason"
+          },
+          {
+            "value": "shortseason",
+            "description": "Shortseason"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "longseason",
+            "description": "Longseason"
+          },
+          {
+            "value": "verylongseason",
+            "description": "Verylongseason"
+          },
+          {
+            "value": "random",
+            "description": "Random"
+          }
+        ]
+      },
+      "summer": {
+        "description": "Summer",
+        "value": "longseason",
+        "options": [
+          {
+            "value": "noseason",
+            "description": "Noseason"
+          },
+          {
+            "value": "veryshortseason",
+            "description": "Veryshortseason"
+          },
+          {
+            "value": "shortseason",
+            "description": "Shortseason"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "longseason",
+            "description": "Longseason"
+          },
+          {
+            "value": "verylongseason",
+            "description": "Verylongseason"
+          },
+          {
+            "value": "random",
+            "description": "Random"
+          }
+        ]
+      },
+      "season_start": {
+        "description": "Season Start",
+        "value": "default",
+        "options": [
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "winter",
+            "description": "Winter"
+          },
+          {
+            "value": "spring",
+            "description": "Spring"
+          },
+          {
+            "value": "summer",
+            "description": "Summer"
+          },
+          {
+            "value": "autumnorspring",
+            "description": "Autumnorspring"
+          },
+          {
+            "value": "winterorsummer",
+            "description": "Winterorsummer"
+          },
+          {
+            "value": "random",
+            "description": "Random"
+          }
+        ]
+      },
+      "day": {
+        "description": "",
+        "value": "longday",
+        "options": [
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "longday",
+            "description": "Longday"
+          },
+          {
+            "value": "longdusk",
+            "description": "Longdusk"
+          },
+          {
+            "value": "longnight",
+            "description": "Longnight"
+          },
+          {
+            "value": "noday",
+            "description": "Noday"
+          },
+          {
+            "value": "nodusk",
+            "description": "Nodusk"
+          },
+          {
+            "value": "nonight",
+            "description": "Nonight"
+          },
+          {
+            "value": "onlyday",
+            "description": "Onlyday"
+          },
+          {
+            "value": "onlydusk",
+            "description": "Onlydusk"
+          },
+          {
+            "value": "onlynight",
+            "description": "Onlynight"
+          }
+        ]
+      },
+      "weather": {
+        "description": "Weather",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "earthquakes": {
+        "description": "Earthquakes",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "lightning": {
+        "description": "Lightning",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "frograin": {
+        "description": "Frograin",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "wildfires": {
+        "description": "Wildfires",
+        "value": "never",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "touchstone": {
+        "description": "Touchstone",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "regrowth": {
+        "description": "Regrowth",
+        "value": "veryfast",
+        "options": [
+          {
+            "value": "veryslow",
+            "description": "Veryslow"
+          },
+          {
+            "value": "slow",
+            "description": "Slow"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "fast",
+            "description": "Fast"
+          },
+          {
+            "value": "veryfast",
+            "description": "Veryfast"
+          }
+        ]
+      },
+      "cavelight": {
+        "description": "Cavelight",
+        "value": "veryfast",
+        "options": [
+          {
+            "value": "veryslow",
+            "description": "Veryslow"
+          },
+          {
+            "value": "slow",
+            "description": "Slow"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "fast",
+            "description": "Fast"
+          },
+          {
+            "value": "veryfast",
+            "description": "Veryfast"
+          }
+        ]
+      },
+      "boons": {
+        "description": "Boons",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "prefabswaps_start": {
+        "description": "Prefabswaps Start",
+        "value": "always",
+        "options": [
+          {
+            "value": "classic",
+            "description": "Classic"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "highly random",
+            "description": "Highly Random"
+          }
+        ]
+      },
+      "prefabswaps": {
+        "description": "Prefabswaps",
+        "value": "max",
+        "options": [
+          {
+            "value": "none",
+            "description": "None"
+          },
+          {
+            "value": "few",
+            "description": "Few"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "many",
+            "description": "Many"
+          },
+          {
+            "value": "max",
+            "description": "Max"
+          }
+        ]
+      }
+    },
+    "resources": {
+      "flowers": {
+        "description": "Flowers",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "grass": {
+        "description": "Grass",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "sapling": {
+        "description": "Sapling",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "marshbush": {
+        "description": "Marshbush",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "tumbleweed": {
+        "description": "Tumbleweed",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "reeds": {
+        "description": "Reeds",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "trees": {
+        "description": "Trees",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "flint": {
+        "description": "Flint",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "rock": {
+        "description": "Rock",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "rock_ice": {
+        "description": "Rock Ice",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "meteorspawner": {
+        "description": "Meteorspawner",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "meteorshowers": {
+        "description": "Meteorshowers",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "mushtree": {
+        "description": "Mushtree",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "fern": {
+        "description": "Fern",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "flower_cave": {
+        "description": "Flower Cave",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "wormlights": {
+        "description": "Wormlights",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      }
+    },
+    "unprepared": {
+      "berrybush": {
+        "description": "Berrybush",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "carrot": {
+        "description": "Carrot",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "mushroom": {
+        "description": "Mushroom",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "cactus": {
+        "description": "Cactus",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "banana": {
+        "description": "Banana",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "lichen": {
+        "description": "Lichen",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      }
+    },
+    "animals": {
+      "rabbits": {
+        "description": "Rabbits",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "moles": {
+        "description": "Moles",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "butterfly": {
+        "description": "Butterfly",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "birds": {
+        "description": "Birds",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "buzzard": {
+        "description": "Buzzard",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "catcoon": {
+        "description": "Catcoon",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "perd": {
+        "description": "Perd",
+        "value": "never",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "pigs": {
+        "description": "Pigs",
+        "value": "often",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "lightninggoat": {
+        "description": "Lightninggoat",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "beefalo": {
+        "description": "Beefalo",
+        "value": "often",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "beefaloheat": {
+        "description": "Beefaloheat",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "hunt": {
+        "description": "Hunt",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "alternatehunt": {
+        "description": "Alternatehunt",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "penguins": {
+        "description": "Penguins",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "cave_ponds": {
+        "description": "Cave Ponds",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "ponds": {
+        "description": "Ponds",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "bees": {
+        "description": "Bees",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "angrybees": {
+        "description": "Angrybees",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "tallbirds": {
+        "description": "Tallbirds",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "slurper": {
+        "description": "Slurper",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "bunnymen": {
+        "description": "Bunnymen",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "slurtles": {
+        "description": "Slurtles",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "rocky": {
+        "description": "Rocky",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "monkey": {
+        "description": "Monkey",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      }
+    },
+    "monsters": {
+      "spiders": {
+        "description": "Spiders",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "cave_spiders": {
+        "description": "Cave Spiders",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "hounds": {
+        "description": "Hounds",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "houndmound": {
+        "description": "Houndmound",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "merm": {
+        "description": "Merm",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "tentacles": {
+        "description": "Tentacles",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "chess": {
+        "description": "Chess",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "lureplants": {
+        "description": "Lureplants",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "walrus": {
+        "description": "Walrus",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "liefs": {
+        "description": "Liefs",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "deciduousmonster": {
+        "description": "Deciduousmonster",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "krampus": {
+        "description": "Krampus",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "bearger": {
+        "description": "Bearger",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "deerclops": {
+        "description": "Deerclops",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "goosemoose": {
+        "description": "Goosemoose",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "dragonfly": {
+        "description": "Dragonfly",
+        "value": "always",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "bats": {
+        "description": "Bats",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "fissure": {
+        "description": "Fissure",
+        "value": "rare",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      },
+      "worms": {
+        "description": "Worms",
+        "value": "default",
+        "options": [
+          {
+            "value": "never",
+            "description": "Never"
+          },
+          {
+            "value": "rare",
+            "description": "Rare"
+          },
+          {
+            "value": "default",
+            "description": "Default"
+          },
+          {
+            "value": "often",
+            "description": "Often"
+          },
+          {
+            "value": "always",
+            "description": "Always"
+          }
+        ]
+      }
+    }
+  }
+}
